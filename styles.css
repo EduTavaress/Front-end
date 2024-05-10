@@ -1,0 +1,109 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+}
+
+@font-face {
+    font-family: VariableFont;
+    src: url(assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: VariableFontYoung;
+    src: url(assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+
+h1 h2 h3 {
+    font-family: VariableFontYoung;
+    font-weight: 300;
+}
+
+p {
+    font-family: VariableFont;
+}
+
+ul {
+    font-family: VariableFont;
+}
+
+ol {
+    font-family: VariableFont;
+}
+
+.container {
+    background-color: white;
+    margin: 100px;
+    padding: 40px;
+    border-radius: 15px;
+    flex-direction: column;
+    width: 900px;
+}
+
+img {
+    width: 900px;
+    border-radius: 15px;
+}
+
+
+.text1 p {
+    line-height: 2;
+}
+
+.text2 {
+    background-color: rgb(250, 236, 242);
+    border-radius: 15px;
+    padding: 5px;
+    line-height: 2;
+    margin: 20px;
+}
+
+#text-decorado {
+    color: rgb(129, 49, 99);
+}
+
+.text2 h3 {
+    margin: 20px;
+}
+
+.text3 {
+    line-height: 2;
+}
+
+.text3 h2 {
+    margin: 20px;
+}
+
+.text4 {
+    line-height: 2;
+}
+
+.text4 h2 {
+    margin: 20px;
+}
+
+h2 {
+    color: rgb(143, 93, 46);
+}
+
+.table1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.table2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.table3 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.table4 {
+    display: flex;
+    justify-content: space-around;
+}
+
